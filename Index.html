@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/IndexStyle.css">
+    <title>Home</title>
+</head>
+<body>
+    <form action = "game.html" class="sec goGame" method="get">
+        <h3>Select Game Level</h3>
+        <select name="chooseScore" class="scoreOption">
+            <option selected disabled>Choose an option</option>
+            <option value="low">Low</option>
+            <option value="middle">Middle</option>
+            <option value="high">High</option>
+        </select>
+        <h3>Enter Your Name</h3>
+        <input type="text" class="playerName" placeholder="Enter your Name" name="user"><span id="nameError" >Required</span><br>
+
+        <input type="submit" class="btn" value="Go">
+    </form>
+    <section class="sec info">
+        <h3>Game Bird Shooting Points</h3>
+        <div class="birdDiv middleBird">
+            <img src="./images/bird3.gif" class="bird">
+            <h2 style="color: blue">+5 Points</h2>
+        </div>
+        <div class="birdDiv smallBird">
+            <img src="./images/bird2.gif" class="bird">
+            <h2 style="color: orangered">+10 Points</h2>
+        </div>
+        <div class="birdDiv bigBird">
+            <img src="./images/bird1.gif" class="bird">
+            <h2 style="color: red">-10 Points</h2>
+        </div>
+    </section>
+    <script src="./scripts/IndexScript.js"></script>
+</body>
+</html>

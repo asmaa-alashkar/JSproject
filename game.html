@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/gameStyle.css" />
+    <title>Game</title>
+</head>
+
+<body>
+    <nav>
+        <div class="part nameOfPlayer"></div>
+        <div class="part playerScore">
+            <h3>Score: 0</h3>
+        </div>
+        <div class="part timeLimit">
+            <h3>Time Limit: 00</h3>
+        </div>
+        <div class="part killedBird">
+            <h3>Bird Killed: 0</h3>
+        </div>
+    </nav>
+    <section>
+        <div class="welcomePopUp">
+            <img class="imgWelcome" src="./images/welcome.jpg" /><br />
+            <h3 class="welcomePlayer"></h3>
+            <p>
+                We hope you Enjoy our game <br />
+                To win, you should kill 25 (black and white) birds in specified time.
+            </p>
+            <button class="startBtn">Start Game</button>
+        </div>
+    </section>
+    <section>
+        <div class="result">
+            <img class="close" src="./images/x.png" />
+            <h1 class="playerResult">You Win</h1>
+            <img class="birdState" src="./images/win.png" />
+            <input type="button" class="PlayAgainBtn" value="Play Again" />
+        </div>
+    </section>
+    <script src="./scripts/gameScript.js"></script>
+</body>
+
+</html>

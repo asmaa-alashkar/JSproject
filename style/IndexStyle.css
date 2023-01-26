@@ -1,0 +1,69 @@
+body {
+    background-image: url("/images/backgroundImage1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.sec {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    border: 1px solid rgba(146, 146, 146, 0.692);
+    background-color: rgba(128, 128, 128, 0.386);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+span {
+    color: red;
+    display: none;
+}
+
+.btn {
+    margin-top: 25px;
+    width: 100px;
+    border-radius: 50px;
+    color: green;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.scoreOption {
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+
+h3 {
+    margin: 15px;
+}
+
+.playerName {
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.bird {
+    width: 50px;
+    height: 50px;
+}
+
+h2 {
+    display: inline;
+}
+
+.birdDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

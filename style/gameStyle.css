@@ -1,0 +1,105 @@
+body {
+  background-image: url("/images/backgroundImage2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  /* filter: brightness(40%); */
+  /* backdrop-filter: brightness(60%); */
+}
+nav {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  border: 1px solid rgba(146, 146, 146, 0.692);
+  background-color: rgba(128, 128, 128, 0.386);
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.part {
+  width: 25%;
+  height: 2.5em;
+}
+
+.bird {
+  position: absolute;
+  width: 144px;
+  height: 144px;
+}
+
+.bomb {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 35em;
+  height: 25em;
+  visibility: hidden;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 2em;
+  height: 2em;
+  margin: 0.5em;
+}
+
+.birdState {
+  width: 10em;
+  margin: 10px;
+}
+
+.PlayAgainBtn {
+  background-color: yellow;
+  height: 3em;
+  width: 10em;
+  border: none;
+  border-radius: 5px;
+}
+
+.blocked {
+  pointer-events: none;
+}
+
+.welcomePopUp {
+  position: absolute;
+  flex-direction: column;
+  width: 35em;
+  height: 25em;
+  background-color: white;
+}
+
+.imgWelcome {
+  width: 8em;
+}
+
+.startBtn {
+  color: white;
+  background-color: green;
+  border: 1px solid black;
+  width: 8em;
+  height: 3em;
+  border-radius: 5px;
+  font-size: large;
+}
